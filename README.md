@@ -2,7 +2,9 @@
 
 <h1 align="center">Observer</h1>
 <p align="center"><b>Classroom monitoring and testing for computer labs</b><br>
-Windows 10 and 11 (64-bit) · Coming soon to the Microsoft Store</p>
+Windows 10 and 11 (64-bit) · Available on the Microsoft Store</p>
+
+<p align="center"><a href="https://apps.microsoft.com/detail/9NB0C23C6SBK"><b>Get Observer Faculty</b></a> &nbsp;·&nbsp; <a href="https://apps.microsoft.com/detail/9NNJ78GZVPBX"><b>Get Observer Student</b></a></p>
 
 ---
 
@@ -14,10 +16,32 @@ Observer comes as two programs:
 
 | Program | For | Notes |
 |---|---|---|
-| **Observer Faculty** | the teacher PC | Paid app |
-| **Observer Student** | every student PC | Free. Starts with Windows and finds the teacher PC by itself |
+| **[Observer Faculty](https://apps.microsoft.com/detail/9NB0C23C6SBK)** | the teacher PC | Free to download. Works fully for a free week (no card needed), then a yearly subscription is required |
+| **[Observer Student](https://apps.microsoft.com/detail/9NNJ78GZVPBX)** | every student PC | Free. Starts with Windows and finds the teacher PC by itself |
 
 Everything stays inside the school's own network. Observer needs no internet, and every link between the PCs is encrypted.
+
+## Get Observer
+
+Both programs are on the Microsoft Store:
+
+- **Observer Faculty** (teacher PC): [apps.microsoft.com/detail/9NB0C23C6SBK](https://apps.microsoft.com/detail/9NB0C23C6SBK)
+- **Observer Student** (every student PC): [apps.microsoft.com/detail/9NNJ78GZVPBX](https://apps.microsoft.com/detail/9NNJ78GZVPBX)
+
+Student PCs can also be set up from a command prompt:
+
+```
+winget install 9NNJ78GZVPBX --source msstore
+```
+
+**Getting started**
+
+1. Install Observer Faculty on the teacher PC and open it. Your free week starts now.
+2. Install Observer Student on each student PC and open it once. After that it starts by itself when Windows starts.
+3. In Observer Faculty, press **+ Add student PCs**. Type the 6-digit code it shows into the **Join your teacher** box on each student PC.
+4. The student PCs appear as live pictures. Group them, arrange a seating plan and start teaching.
+
+The yearly subscription is bought inside Observer Faculty with the **Subscribe** button, through the Microsoft Store. The price for your country is shown in the Store.
 
 ## Features
 
@@ -74,7 +98,7 @@ The strip students see while a teacher is connected:
 
 - Windows 10 or 11, 64-bit.
 - Teacher and student PCs on the same local network (wired or Wi-Fi).
-- Microsoft Edge WebView2 Runtime (already part of Windows 11; the installer adds it when missing).
+- Microsoft Edge WebView2 Runtime (already part of Windows 10 and 11).
 - Switching PCs on needs a wired network connection and Wake-on-LAN allowed on the PC.
 
 ## Privacy
