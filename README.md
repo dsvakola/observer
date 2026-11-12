@@ -118,4 +118,4 @@ Tauri v2 and Rust, with Windows' built-in WebView2. Screen capture by DXGI Deskt
 ---
 
 Designed and developed by **Prof. Dattaraj S. Vidyasagar** and **Prof. Yash D. Vidyasagar**, for **Vidyasagar Academy**.
-Copyright © 2026 Vidyasagar Academy. All rights reserved.
+Copyright © 2026 Vidyasagar Academy. All rights reserved. See [LICENSE](LICENSE).
